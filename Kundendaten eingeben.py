@@ -79,7 +79,7 @@ exp.as_list()  # Ausgabe als Liste (falls nicht in einem Notebook)
 import openai
 
 # Deinen OpenAI API-Schlüssel eingeben
-openai.api_key = 'sk-u08zmV-PsFr7f6lOXugzX33gxFG5VvpFRc6neBCUqKT3BlbkFJ-clHqXzrbLVbRt2_td_bDqDNbIiKqL8tcuakJIf0IA'
+openai.api_key = '<OPENAI_API_KEY>'
 
 # LIME-Daten als String
 lime_data = exp.as_list()
